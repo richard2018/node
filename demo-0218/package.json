@@ -1,0 +1,19 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "test1 description ",
+  "main": "demo02-server.js",
+  "dependencies": {
+    "debug": "^2.6.1",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test1Cmd"
+  },
+  "keywords": [
+    "test1Key"
+  ],
+  "author": "lifeng",
+  "license": "Apache-2.0"
+}

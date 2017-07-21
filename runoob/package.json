@@ -1,0 +1,17 @@
+{
+  "name": "richard2088----test1",
+  "version": "0.0.1",
+  "description": "test1 descipt",
+  "main": "index",
+  "scripts": {
+    "test": "good"
+  },
+  "author": "richard2088",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "multer": "^1.1.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "gulp-demo",
+  "version": "1.0.0",
+  "description": "gulp-demo-description",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp-demo-cli"
+  },
+  "keywords": [
+    "gulp-demo"
+  ],
+  "author": "lifeng",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-jslint": "^1.0.1",
+    "jshint": "^2.9.2",
+    "jshint-smart": "^1.0.0"
+  }
+}

@@ -1,0 +1,559 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"ListLength"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"buf",
+				"buf2"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"mul",
+				"multiply2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gulp-demo/index.js",
+			"settings":
+			{
+				"buffer_size": 57,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "'1808901',\n'1808902',\n'1808903',\n'1808904',\n'1808905',\n'1808906',\n'1808907',\n'1808908',\n'1808909',\n'41293901',\n'41294001',\n'41294801',\n'41295401',\n'41294201',\n'41294301',\n'41294401',\n'41295101',\n'41293801',\n'41295001',\n'41294501',\n'1815403',\n'1815404',\n'1815405',\n'1815406',\n'1815501',\n'1815502',\n'1815503',\n'1815504',\n'1815505',\n'1815506',\n'1815601',\n'1815602',\n'1815603',\n'1815604',\n'1815605',\n'1815606',\n'1815701',\n'1815702',\n'1815703',\n'1815704',\n'1815706',\n'1815801',\n'1815802',\n'1815803',\n'1815804',\n'1815805',\n'1815806',\n'1815901',\n'1815902',\n'1815903',\n'1815904',\n'1815905',\n'1815906',\n'1816001',\n'1816002',\n'1816003',\n'1816004',\n'1816005',\n'1816006',\n'1816101',\n'1816102',\n'1815705',\n'1816103',\n'1816104',\n'1816105',\n'1816106',\n'41294101',\n'1815201',\n'1815202',\n'1815203',\n'1815204',\n'1815205',\n'1815206',\n'1815301',\n'1815302',\n'1815303',\n'1815304',\n'1815305',\n'1815306',\n'1815401',\n'1815402',\n'41294701',\n'41294901',\n'41295201',\n'41279401',\n'41294601',\n'41295301'",
+			"settings":
+			{
+				"buffer_size": 973,
+				"line_ending": "Unix",
+				"name": "'1808901',"
+			}
+		},
+		{
+			"contents": "select * from acct_app_log l where l.message like '%A997793%' and log_time > str_to_date('2016-05-13 00:00:00','%Y-%m-%d %H:%i:%s')\n\n\nselect str_to_date('2016-05-14 00:00:00','%Y-%m-%d %H:%i:%s') from acct_app_log l where l.message like '%A997793%'",
+			"settings":
+			{
+				"buffer_size": 248,
+				"line_ending": "Unix",
+				"name": "select * from acct_app_log l where l.message like"
+			}
+		},
+		{
+			"contents": "com.qianmi.usercenter.api.provider.common.SecurityProvider.updateUserLoginPassword",
+			"settings":
+			{
+				"buffer_size": 82,
+				"line_ending": "Unix",
+				"name": "com.qianmi.usercenter.api.provider.common.Security"
+			}
+		},
+		{
+			"contents": "select distinct cardid 商品编号,REALSUPUID,count(*) over (partition by cardid,REALSUPUID) as 供货量 ,PURUSERID 采购商,count(*) over (partition by cardid,REALSUPUID,PURUSERID) as 采购量  from OFCARDORAMANAGER.salebilltable where ordertime between to_date('2016-02-01 00:00:00','yyyy-MM-dd hh24:mi:ss') and \nto_date('2016-02-29 23:59:59','yyyy-MM-dd hh24:mi:ss') and cardid in('1808901',\n'1808902',\n'1808903',\n'1808904',\n'1808905',\n'1808906',\n'1808907',\n'1808908',\n'1808909',\n'41293901',\n'41294001',\n'41294801',\n'41295401',\n'41294201',\n'41294301',\n'41294401',\n'41295101',\n'41293801',\n'41295001',\n'41294501',\n'1815403',\n'1815404',\n'1815405',\n'1815406',\n'1815501',\n'1815502',\n'1815503',\n'1815504',\n'1815505',\n'1815506',\n'1815601',\n'1815602',\n'1815603',\n'1815604',\n'1815605',\n'1815606',\n'1815701',\n'1815702',\n'1815703',\n'1815704',\n'1815706',\n'1815801',\n'1815802',\n'1815803',\n'1815804',\n'1815805',\n'1815806',\n'1815901',\n'1815902',\n'1815903',\n'1815904',\n'1815905',\n'1815906',\n'1816001',\n'1816002',\n'1816003',\n'1816004',\n'1816005',\n'1816006',\n'1816101',\n'1816102',\n'1815705',\n'1816103',\n'1816104',\n'1816105',\n'1816106',\n'41294101',\n'1815201',\n'1815202',\n'1815203',\n'1815204',\n'1815205',\n'1815206',\n'1815301',\n'1815302',\n'1815303',\n'1815304',\n'1815305',\n'1815306',\n'1815401',\n'1815402',\n'41294701',\n'41294901',\n'41295201',\n'41279401',\n'41294601',\n'41295301') order by cardid,REALSUPUID,PURUSERID",
+			"settings":
+			{
+				"buffer_size": 1373,
+				"line_ending": "Unix",
+				"name": "select distinct cardid 商品编号,REALSUPUID,count(*) ov"
+			}
+		}
+	],
+	"build_system": "Packages/JSHint/JSHint.sublime-build",
+	"command_palette":
+	{
+		"height": 367.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"suGDB",
+				"Preferences: SublimeGDB Settings – User"
+			],
+			[
+				"Subli",
+				"Preferences: SublimeGDB Settings – Default"
+			],
+			[
+				"SublimeGDB",
+				"Preferences: SublimeGDB Settings – User"
+			],
+			[
+				"gdb",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"GDB",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"gDB",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"git",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: t",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: main()"
+			],
+			[
+				"",
+				"Build: Build"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 317.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lifeng/my-sources/nodejs/gulp-demo/package.json",
+		"/Users/lifeng/my-sources/nodejs/gulp-demo/gulpfile.js",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/lifeng/my-sources/nodejs/gulp-demo/index.js",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/sublime-jslint/sublime-jslint.sublime-settings",
+		"/Users/lifeng/my-sources/nodejs/nodejs-package/package.json",
+		"/Users/lifeng/my-sources/nodejs/gulp-demo/dist/index.js",
+		"/Users/lifeng/my-sources/ds/c/PlayWithDataStructureSourceCode_UTF-8/第3章线性表/02线性表链式存储_LinkList_UTF-8.c",
+		"/Users/lifeng/my-sources/ds/c/PlayWithDataStructureSourceCode_UTF-8/第3章线性表/practice/linklist.c",
+		"/Users/lifeng/my-sources/ds/c/PlayWithDataStructureSourceCode_UTF-8/第3章线性表/01线性表顺序存储_List_UTF-8.c",
+		"/Users/lifeng/my-sources/ds/test.c",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/User/SublimeGDB.sublime-settings",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/SublimeGDB/Default.sublime-keymap",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/User/c.sublime-build",
+		"/Users/lifeng/my-sources/nodejs/runoob/master.js",
+		"/Users/lifeng/my-sources/nodejs/nodejs",
+		"/Users/lifeng/my-sources/nodejs/commonjs/foo.js",
+		"/Users/lifeng/my-sources/nodejs/commonjs/main.js",
+		"/Users/lifeng/my-sources/nodejs/commonjs/comiled.js",
+		"/Users/lifeng/my-sources/nodejs/d1/index.js",
+		"/Users/lifeng/qm-sources/itemcenter/itemcenter/ofpay-itemcenter-api/src/main/java/com/ofpay/itemcenter/supitem/napi/SupRelationQueryProvider.java",
+		"/Users/lifeng/qm-sources/itemcenter/itemcenter/ofpay-itemcenter-web/src/main/java/com/ofpay/itemcenter/supitem/napi/impl/SupRelationQueryProviderImpl.java",
+		"/Users/lifeng/Desktop/logic.txt",
+		"/Users/lifeng/qm-sources/itemcenter/itemcenter/ofpay-itemcenter-dao/src/main/resources/ibatis-item/nsql/NItemDaoMapper_carddb.xml",
+		"/Users/lifeng/qm-sources/itemcenter/itemcenter/ofpay-itemcenter-dao/src/main/java/com/ofpay/itemcenter/item/ndao/impl/NItemDaoImpl.java",
+		"/Users/lifeng/qm-sources/itemcenter/itemcenter/ofpay-itemcenter-api/src/main/java/com/ofpay/itemcenter/item/napi/ItemQueryProvider.java",
+		"/Users/lifeng/qm-sources/itemcenter/itemcenter/ofpay-itemcenter-web/src/main/java/com/ofpay/itemcenter/item/napi/impl/ItemQueryProviderImpl.java",
+		"/Users/lifeng/Desktop/TestMain.java",
+		"/Users/lifeng/Desktop/test21222.html",
+		"/Users/lifeng/qm-sources/itemcenter/itemcenter/ofpay-itemcenter-api/target/apidocs/com/ofpay/itemcenter/supitem/napi/SupRelationQueryProvider.html",
+		"/Users/lifeng/Desktop/TestJava.java",
+		"/Users/lifeng/Documents/programm-language/js/react/react-source/reactQa/index-static.html",
+		"/Users/lifeng/Documents/programm-language/js/react/react-source/reactQa/app/js/components/QuestionItem.js",
+		"/Users/lifeng/Documents/programm-language/js/react/react-source/reactQa/app/js/components/QuestionApp.js",
+		"/Users/lifeng/Documents/programm-language/js/react/react-source/reactQa/app/js/components/QuestionForm.js",
+		"/Users/lifeng/Documents/programm-language/js/react/react-source/reactQa/app/js/components/QuestionList.js",
+		"/Users/lifeng/Documents/programm-language/js/react/react-source/reactQa/app/js/components/ShowAddButton.js",
+		"/Users/lifeng/Documents/programm-language/js/react/react-source/reactQa/app/js/main.js",
+		"/Users/lifeng/Documents/programm-language/js/react/react-source/reactQa/index.html",
+		"/Users/lifeng/Desktop/base/Query.java",
+		"/Users/lifeng/Documents/programm-language/js/react/react-source/reactQa/dist/js/main.js",
+		"/Users/lifeng/Documents/programm-language/js/react/react-source/reactQa/app/test1.html",
+		"/Users/lifeng/Documents/programm-language/js/react/react-source/reactQa/gulpfile.js",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/View In Browser/View In Browser.sublime-settings",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/Terminal/Default (OSX).sublime-keymap",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/User/Terminal (OSX).sublime-settings",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/User/Terminal.sublime-settings",
+		"/Users/lifeng/qm-sources/qm-boss/bossweb/src/main/webapp/WEB-INF/assets/package.json",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/lifeng/Documents/Linux/UnixLinux编程实践/chapters/ch11/bookcode/timeserv.c",
+		"/Users/lifeng/Documents/Linux/UnixLinuxpractice/chapters/ch11/bookcode/timeserv.c",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/lifeng/Desktop/untitled",
+		"/Users/lifeng/Documents/项目/虚商号卡/未命名.svg",
+		"/Users/lifeng/Desktop/test.html",
+		"/Users/lifeng/Desktop/fff.html",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/lifeng/Library/Application Support/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/Users/lifeng/Desktop/jvm.txt",
+		"/Users/lifeng/my-sources/ruby/hash7.py",
+		"/Users/lifeng/my-sources/ruby/test1.py",
+		"/Users/lifeng/my-sources/ruby/test2.py",
+		"/Users/lifeng/my-sources/ruby/test3.py",
+		"/Users/lifeng/my-sources/ruby/test4.py",
+		"/Users/lifeng/my-sources/ruby/test5.py",
+		"/Users/lifeng/my-sources/ruby/test6.py",
+		"/Users/lifeng/my-sources/ruby/test7.py",
+		"/Users/lifeng/my-sources/ruby/test8.py",
+		"/Users/lifeng/my-sources/ruby/ruby笔记1",
+		"/Users/lifeng/my-sources/ruby/test9.py",
+		"/Users/lifeng/my-sources/ruby/hash1.py",
+		"/Users/lifeng/my-sources/ruby/hash2.py",
+		"/Users/lifeng/my-sources/ruby/hash3.py",
+		"/Users/lifeng/Desktop/大数据试听"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.java",
+			"*.xml",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"^",
+			"$",
+			"^",
+			"jshint",
+			"notset",
+			"server_workingdir",
+			"air",
+			"ari",
+			"settlePrice",
+			"4",
+			"1.5",
+			"flightCompanyName",
+			"audletAirportTax",
+			"2811",
+			"open",
+			"mix",
+			"160505429627",
+			"\\n\\r",
+			"\\n",
+			"	'",
+			",",
+			"	,",
+			"$",
+			"findSupRelationBO",
+			"getItemDetailByProductId",
+			"findSupRelationBO",
+			"case",
+			"queryItemsByProductId",
+			"Query",
+			"index",
+			"sock_fp",
+			"shift",
+			"test",
+			"lee",
+			"paixu",
+			"#",
+			"run",
+			"start",
+			"\n",
+			"8097",
+			"80",
+			"engine",
+			"init",
+			"$",
+			"^",
+			"BubbleSort",
+			"口",
+			".icon",
+			"icon",
+			"appendonly.aof",
+			"dump",
+			"maxmemory",
+			"  "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"'",
+			"',",
+			"'",
+			" ",
+			"",
+			"'",
+			"',",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gulp-demo/index.js",
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								973
+							]
+						],
+						"settings":
+						{
+							"auto_name": "'1808901',",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 882.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "select * from acct_app_log l where l.message like",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 82,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "com.qianmi.usercenter.api.provider.common.Security",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 1373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1373,
+								1373
+							]
+						],
+						"settings":
+						{
+							"auto_name": "select distinct cardid 商品编号,REALSUPUID,count(*) ov",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 933.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"output.jslint_result_view":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"gulp",
+				"gulp-demo/gulpfile.js"
+			],
+			[
+				"gdb",
+				"GDB Breakpoints"
+			],
+			[
+				"itemqueryprovider",
+				"ofpay-itemcenter-web/src/main/java/com/ofpay/itemcenter/item/napi/impl/ItemQueryProviderImpl.java"
+			],
+			[
+				"suprelationqueryprovider",
+				"ofpay-itemcenter-api/src/main/java/com/ofpay/itemcenter/supitem/napi/SupRelationQueryProvider.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/lifeng/my-sources/nodejs/node.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 151.0,
+	"status_bar_visible": true
+}
