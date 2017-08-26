@@ -1,0 +1,14 @@
+{
+  "name": "richard2088",
+  "version": "0.0.1",
+  "description": "node base demo",
+  "main": "demo01.js",
+  "scripts": {
+    "test": "node demo01.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "richard2088",
+  "license": "ISC"
+}
